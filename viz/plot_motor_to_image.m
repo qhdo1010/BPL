@@ -16,8 +16,8 @@ function plot_motor_to_image(I,drawing,size_start,lw)
        lw = 4; % line width 
     end
 
-    assert(size(I,1)==105);
-    assert(size(I,2)==105);
+    %assert(size(I,1)==105);
+    %assert(size(I,2)==105);
     drawing = space_motor_to_img(drawing);
     hold on
     plot_image_only(I);

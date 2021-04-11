@@ -54,8 +54,8 @@ function plot_motor_to_image(I,drawing,size_start,lw)
     end
       
     set(gca,'YDir','reverse','XTick',[],'YTick',[]);
-    xlim([1 105]);
-    ylim([1 105]);
+    %xlim([1 105]);
+    %ylim([1 105]);
 end
 
 function plot_traj(stk,color,lw)
